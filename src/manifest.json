@@ -1,0 +1,12 @@
+{
+    "short_name": "product-owner-academy",
+    "name": "Product Owner Academy POA",
+    "start_url": "/",
+
+    "external": {
+        "urls": [
+                {"url": "http://fonts.googleapis.com/icon?family=Material+Icons"}
+        ]
+   }
+
+}
