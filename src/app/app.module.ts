@@ -15,6 +15,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { environment } from '../environments/environment';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CoursesComponent } from './courses/courses.component';
+import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
+import { BaseLayoutComponent } from './layouts/base-layout/base-layout.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -27,6 +29,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     AboutComponent,
     CoursesComponent,
+    HomeLayoutComponent,
+    BaseLayoutComponent,
   ],
   imports: [
     BrowserModule,
